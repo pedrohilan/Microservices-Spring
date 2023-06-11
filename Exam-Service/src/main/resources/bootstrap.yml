@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: exam
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+  profiles:
+    active: default
+  cloud:
+    config:
+      uri: http://localhost:7000
+server:
+  port: 0 #random port
